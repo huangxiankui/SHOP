@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical">
+
+<LinearLayout 
+   
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="15dp" >
+</LinearLayout>
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:layout_weight="1">
+
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="70dp"
+			android:layout_weight="1">
+
+			<LinearLayout android:orientation="vertical"
+				android:layout_width="fill_parent" android:layout_height="fill_parent"
+				android:layout_weight="1">
+
+				<Button
+				    android:id="@+id/bt1"
+				    android:layout_width="match_parent"
+				    android:layout_height="match_parent"
+				    android:layout_gravity="left"
+				    android:text="快餐" 
+				    android:background="#008B00"
+				     android:textColor="@drawable/buttoncolor"/>
+
+			</LinearLayout>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="5dp" >
+</LinearLayout>
+			<LinearLayout android:orientation="vertical"
+				android:layout_width="fill_parent" android:layout_height="fill_parent"
+				android:layout_weight="1">
+
+				<Button
+				    android:id="@+id/bt2"
+				    android:layout_width="match_parent"
+				    android:layout_height="match_parent"
+				    android:layout_gravity="right"
+				     android:textColor="@drawable/buttoncolor"
+				     android:background="#EE7942"
+				    android:text="送水" />
+
+			</LinearLayout>
+		</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="15dp" 
+     android:orientation="horizontal">
+			
+    
+</LinearLayout>
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_height="70dp"
+			android:layout_weight="1" android:gravity="center">
+
+			<Button
+			    android:id="@+id/bt3"
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+			     android:textColor="@drawable/buttoncolor"
+			     android:background="#87CEFF"
+			    android:text="兼职" />
+			
+
+		</LinearLayout>
+		
+	
+		
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="15dp" >
+</LinearLayout>
+		<LinearLayout android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="70dp"
+			android:layout_weight="1">
+
+			<LinearLayout android:orientation="vertical"
+				android:layout_width="fill_parent" android:layout_height="fill_parent"
+				android:layout_weight="2" android:gravity="left|bottom">
+
+				<Button
+				    android:id="@+id/bt4"
+				    android:layout_width="match_parent"
+				    android:layout_height="match_parent"
+				     android:textColor="@drawable/buttoncolor"
+				     android:background="#6E8B3D"
+				    android:text="水电查询" />
+
+			</LinearLayout>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="5dp" >
+</LinearLayout>
+			<LinearLayout
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    android:layout_weight="1"
+			    android:gravity="right|bottom"
+			    android:orientation="vertical" >
+
+			    <Button
+			        android:id="@+id/bt5"
+			        android:layout_width="match_parent"
+			        android:layout_height="match_parent"
+			        android:layout_weight="1"
+			         android:textColor="@drawable/buttoncolor"
+			         android:background="#43CD80"
+			        android:text="新物发布" />
+			</LinearLayout>
+
+		</LinearLayout>
+		<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="15dp" >
+</LinearLayout>
+			<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent" android:layout_height="70dp"
+			android:layout_weight="1" android:gravity="center">
+
+				<Button
+				    android:id="@+id/bt6"
+				    android:layout_width="match_parent"
+				    android:layout_height="fill_parent"
+				     android:textColor="@drawable/buttoncolor"
+				     android:background="#D15FEE"
+				    android:text="新闻速递" />
+
+		</LinearLayout>
+		<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="15dp" >
+</LinearLayout>
+			<LinearLayout android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="70dp"
+			android:layout_weight="1">
+
+			<LinearLayout android:orientation="vertical"
+				android:layout_width="fill_parent" android:layout_height="fill_parent"
+				android:layout_weight="1" android:gravity="left|bottom">
+
+				<Button
+				    android:id="@+id/bt7"
+				    android:layout_width="match_parent"
+				    android:layout_height="match_parent"
+				     android:textColor="@drawable/buttoncolor"
+				     android:background="#E9967A"
+				    android:text=" 路线地图" />
+
+			</LinearLayout>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="5dp" >
+</LinearLayout>
+			<LinearLayout
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    android:layout_weight="1"
+			    android:gravity="right|bottom"
+			    android:orientation="vertical" >
+
+			    <Button
+			        android:id="@+id/bt8"
+			        android:layout_width="match_parent"
+			        android:layout_height="match_parent"
+			        android:layout_weight="1"
+			         android:textColor="@drawable/buttoncolor"
+			        android:background="#A0522D"
+			        android:text="考试查询" />
+			</LinearLayout>
+
+		</LinearLayout>
+	<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="15dp" >
+</LinearLayout>
+			<LinearLayout android:orientation="horizontal"
+			android:layout_width="fill_parent" android:layout_height="70dp"
+			android:layout_weight="1">
+
+			<LinearLayout android:orientation="vertical"
+				android:layout_width="fill_parent" android:layout_height="fill_parent"
+				android:layout_weight="1" android:gravity="left|bottom">
+
+				<Button
+				    android:id="@+id/bt9"
+				    android:layout_width="match_parent"
+				    android:layout_height="match_parent"
+				     android:textColor="@drawable/buttoncolor"
+				     android:background="#9400D3"
+				    android:text="NFC读卡" />
+
+			</LinearLayout>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="5dp" >
+</LinearLayout>
+			<LinearLayout
+			    android:layout_width="fill_parent"
+			    android:layout_height="fill_parent"
+			    android:layout_weight="2"
+			    android:gravity="right|bottom"
+			    android:orientation="vertical" >
+
+			    <Button
+			        android:id="@+id/bt10"
+			        android:layout_width="match_parent"
+			        android:layout_height="match_parent"
+			        android:layout_weight="1"
+			         android:textColor="@drawable/buttoncolor"
+			        android:background="#B4EEB4"
+			        android:text="分享" />
+			</LinearLayout>
+
+		</LinearLayout>
+			
+	</LinearLayout>
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:layout_weight="1">
+
+	</LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>

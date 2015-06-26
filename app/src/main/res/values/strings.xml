@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">易购</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_index">IndexActivity</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_category">CategoryActivity</string>
+    <string name="title_activity_cart">CartActivity</string>
+    <string name="title_activity_personal">PersonalActivity</string>
+    <string name="title_cart">购物车</string>
+    <string name="title_category">分类</string>
+    <string name="title_index">周围</string>
+    <string name="title_stars">易搜</string>
+    <string name="title_my">我的</string>
+    <string name="title_activity_tabao">TabaoActivity</string>
+    <string name="todo">TODO</string>
+    <string name="user_work_back">返回</string>
+    <string name="my_tb">我的易购</string>
+    <string name="tab_1">学习用品</string>
+    <string name="tab_2">二货商城</string>
+    <string name="tab_3">日常用品</string>
+    <string name="tab_4">电子产品</string>
+    <string name="tab_5">杂货小铺</string>
+    <string name="title_activity_result">ResultActivity</string>
+    
+    
+    <string name="pvrCompleted">新闻要闻</string>
+    <string name="pvrUnfinished">国内要闻</string>
+    <string name="pvrFailure">社会与法</string>
+    <string name="kepuyaowen">科技要闻</string>
+    <string name="junshi">军事要闻</string>
+     <string name="youxi">游戏天空</string>
+
+</resources>

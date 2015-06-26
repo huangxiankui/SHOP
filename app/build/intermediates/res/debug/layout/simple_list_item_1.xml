@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>    
+  
+       <RelativeLayout     
+         android:layout_width="fill_parent"     
+         xmlns:android="http://schemas.android.com/apk/res/android"     
+         android:layout_height="wrap_content"     
+         android:paddingBottom="4dip"     
+         android:paddingLeft="12dip">  
+         <TextView     
+            
+               android:text="content"     
+               android:layout_height="wrap_content"     
+               android:layout_width="fill_parent"     
+               android:id="@+id/itemTitle" 
+               android:layout_toRightOf="@+id/itemImage" 
+               android:textSize="20dip">    
+         </TextView>   
+              
+       
+</RelativeLayout>
+<!-- From: file:/E:/buy/app/src/main/res/layout/simple_list_item_1.xml -->

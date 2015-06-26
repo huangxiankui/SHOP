@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\buy\app\libs\BaiduLBS_Android.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="868c060abfa9778e598e631f93f94037edbe8996">
+        <dex dex="E:\buy\app\build\intermediates\pre-dexed\debug\BaiduLBS_Android-c7edaaf76972313613003fd65411f758f1e54c5e.jar" />
+    </item>
+    <item
+        jar="E:\buy\app\libs\ShareSDK-SinaWeibo-2.3.8.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f1f14046d4ddc4b9fdb9000dba76ea3aaa6ebb49">
+        <dex dex="E:\buy\app\build\intermediates\pre-dexed\debug\ShareSDK-SinaWeibo-2.3.8-0b5e0dcc219c7d12510b3f0a6df329965cf64be6.jar" />
+    </item>
+    <item
+        jar="E:\buy\app\libs\ShareSDK-Wechat-2.3.8.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dd53aef33b55f70770e59816193e16a13db02717">
+        <dex dex="E:\buy\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-2.3.8-f114b5a19b19b8155c0a08103a45befe91c6a2a4.jar" />
+    </item>
+    <item
+        jar="E:\buy\app\libs\ShareSDK-QZone-2.3.8.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="05236d065dda4d4fc5eeeb30e3b080a26f0e1c36">
+        <dex dex="E:\buy\app\build\intermediates\pre-dexed\debug\ShareSDK-QZone-2.3.8-108ca61be7bc590ea5265f955c4731d27ee7b897.jar" />
+    </item>
+    <item
+        jar="E:\buy\app\libs\ShareSDK-QQ-2.3.8.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="46e193a548fb3dcefbd65d3294627f1ffac4f697">
+        <dex dex="E:\buy\app\build\intermediates\pre-dexed\debug\ShareSDK-QQ-2.3.8-026a841c8f4571e4eecc8120f88bab8886a87e1e.jar" />
+    </item>
+    <item
+        jar="E:\buy\app\libs\ShareSDK-Wechat-Moments-2.3.8.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f76c555cdf45bd08d74bccd954710e331059d598">
+        <dex dex="E:\buy\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-Moments-2.3.8-74c932471145cd8b3ba83816d5dd11a818510292.jar" />
+    </item>
+    <item
+        jar="E:\buy\app\libs\ShareSDK-ShortMessage-2.3.8.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="cfa55959f8929b7a2d316930f69a0bf7a899762c">
+        <dex dex="E:\buy\app\build\intermediates\pre-dexed\debug\ShareSDK-ShortMessage-2.3.8-64d9a847362eecc26955a804720c051c9f0ed714.jar" />
+    </item>
+    <item
+        jar="E:\buy\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="E:\buy\app\build\intermediates\pre-dexed\debug\classes-1a6b03b487e057627933b7caf9ee5865a5b1fbd2.jar" />
+    </item>
+    <item
+        jar="E:\buy\app\libs\aibang-android-open-sdk-1.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="74df08193939aae59500f3bf3115c465f93b69a5">
+        <dex dex="E:\buy\app\build\intermediates\pre-dexed\debug\aibang-android-open-sdk-1.0.0-ca59ade97339b86b9c41cd0419b883da5405c62a.jar" />
+    </item>
+    <item
+        jar="E:\buy\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="E:\buy\app\build\intermediates\pre-dexed\debug\classes-c79fc561468d1ed5847332f0b73a7d5518a885fa.jar" />
+    </item>
+    <item
+        jar="E:\buy\app\libs\ShareSDK-Core-2.3.8.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ac0f451a0f061356d793a76ad8dbcfe4de2e547b">
+        <dex dex="E:\buy\app\build\intermediates\pre-dexed\debug\ShareSDK-Core-2.3.8-4fc901fb9cf9a768bfd2d426fef4b7ac07a5cd0f.jar" />
+    </item>
+    <item
+        jar="E:\buy\app\libs\ShareSDK-Wechat-Core-2.3.8.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c82c5ea882d5a7d4575b01ed96d4c6413a67359d">
+        <dex dex="E:\buy\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-Core-2.3.8-401e8ba1dc215e3e4603993c7feb120cc2e5fbd8.jar" />
+    </item>
+    <item
+        jar="E:\buy\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="E:\buy\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-5f18c7b6216056729f28fc571b188ff5b8434ee5.jar" />
+    </item>
+    <item
+        jar="D:\studio sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="E:\buy\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-7d419f59ea890475d1ef922355dbc47f4b51ad20.jar" />
+    </item>
+    <item
+        jar="E:\buy\app\libs\ShareSDK-Wechat-Favorite-2.3.8.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9048af3f1279a7f1c83a7c9aa756481f4b74cfbc">
+        <dex dex="E:\buy\app\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-Favorite-2.3.8-8340bceddedead1ffb4964853fcbc9a9faeedf0c.jar" />
+    </item>
+
+</items>

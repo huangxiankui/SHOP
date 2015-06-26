@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white1">#FFFFFF</color>
+    <color name="gray1">#FFFAFA</color>
+    <color name="pink1">#fb5b7f</color>
+    <color name="black1">#000000</color>
+    <color name="head1">#ffb10000</color>
+    <color name="lightw1hite">#ddd</color>  
+    <color name="trans1">#55000000</color>
+    <color name="red1">#FF0000</color>
+	<color name="divide1">#cccccc</color>
+	<color name="edittext1">#E0FFFF</color>
+  
+</resources>
