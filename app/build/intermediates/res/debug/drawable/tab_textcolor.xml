@@ -6,4 +6,4 @@
     <item android:state_enabled="true" android:state_checked="true" android:color="@color/pink" />
     <item android:color="@color/black" />  
 </selector>
-<!-- From: file:/E:/buy/app/src/main/res/drawable/tab_textcolor.xml -->
+<!-- From: file:/E:/android/buy/app/src/main/res/drawable/tab_textcolor.xml -->

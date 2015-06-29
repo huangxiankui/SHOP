@@ -22,4 +22,4 @@
           android:visibility="gone"
           android:id="@+id/gallery_url"
           />
-</RelativeLayout><!-- From: file:/E:/buy/app/src/main/res/layout/item.xml -->
+</RelativeLayout><!-- From: file:/E:/android/buy/app/src/main/res/layout/item.xml -->

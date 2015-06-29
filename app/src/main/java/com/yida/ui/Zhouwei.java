@@ -48,7 +48,7 @@ Callback {
 	private String text = "易购平台,二手货物,公交,最新时讯,兼职,快餐,水电费一网打尽,快来下载使用吧!";
 	private String imageurl = "http://www.wyl.cc/wp-content/uploads/2014/02/10060381306b675f5c5.jpg";
 	private String title = "易购-帮您快乐购物";
-	private String url = "www.baidu.com";
+	private String url = "http://www.eeetao.net//www//index.php";
 	public static final String SHARE_APP_KEY = "21b0f35691b8";
 	private SharePopupWindow share;
 	protected void onCreate(Bundle savedInstanceState) {

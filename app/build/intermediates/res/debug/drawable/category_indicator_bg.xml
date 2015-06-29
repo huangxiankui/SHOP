@@ -6,4 +6,4 @@
     <item android:state_selected="true" android:drawable="@drawable/category_indicator_s" />
     <item android:state_checked="true" android:drawable="@drawable/category_indicator_s" />
     <item android:drawable="@drawable/category_indicator" />
-</selector><!-- From: file:/E:/buy/app/src/main/res/drawable/category_indicator_bg.xml -->
+</selector><!-- From: file:/E:/android/buy/app/src/main/res/drawable/category_indicator_bg.xml -->

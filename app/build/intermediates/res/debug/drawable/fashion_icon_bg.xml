@@ -6,4 +6,4 @@
     <item android:state_selected="true" android:drawable="@drawable/fashion_icon_s" />
     <item android:state_checked="true" android:drawable="@drawable/fashion_icon_s" />
     <item android:drawable="@drawable/fashion_icon" />
-</selector><!-- From: file:/E:/buy/app/src/main/res/drawable/fashion_icon_bg.xml -->
+</selector><!-- From: file:/E:/android/buy/app/src/main/res/drawable/fashion_icon_bg.xml -->

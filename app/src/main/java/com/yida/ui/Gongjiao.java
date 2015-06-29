@@ -113,17 +113,7 @@ public class Gongjiao extends Activity implements OnClickListener {
             String result = null;
             mAibang.setProxy(getProxy());
             try {
-//                if ("search".equals(mAction)) {
-//                	  
-//                	 //result = mAibang.search("江门", "五邑大学", null, null, null,
-//                           	// result = mAibang.search("北京", "五道口", null, null, null,
-//                	result = mAibang.search(shi1, shi2, null, null, null,
-//                	//result = mAibang.search(Gongjiao.shi1, Gongjiao.shi2, null, null, null,
-//                            null, null, null, null, null);
-//            }
-                	//else if ("biz".equals(mAction)) {
-//                    result = mAibang.biz("829423550-695247739");
-            //    } 
+
             	EditText shistart=(EditText)findViewById(R.id.et1);
         		//edittext 中对应的各个editext,获取edittext中的string数值,并将其放置到AibangAsyncTask对应的查询地址上
         	shi1=shistart.getText().toString();
@@ -134,16 +124,12 @@ public class Gongjiao extends Activity implements OnClickListener {
        		 shi3=shiend.getText().toString();
              if ("bus".equals(mAction)) {
                 	
-               // result = mAibang.bus("江门", "五邑大学", "蓬江区政府", null, null, null,
-                //   result = mAibang.bus("北京", "五道口", "中关村", null, null, null,
+
             	 result = mAibang.bus(shi1, shi2,shi3, null, null, null,
             	
                             null, null, null, null);
                } 
-                    //else if ("post_comment".equals(mAction)) {
-//                   result = mAibang.postComment("username", "829423550-695247739", 5,
-//                //	result = mAibang.postComment("huangxiankui", "788fe0708e9326dc", 5,
-//                	null, "哇，好白痴的程序呀～～～");
+
 //                }
             } catch (Exception e) {
                 mException = e;

@@ -3,6 +3,7 @@ package com.yida.ui;
 import android.app.TabActivity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.StrictMode;
 import android.view.Window;
 import android.widget.RadioGroup;
 import android.widget.RadioGroup.OnCheckedChangeListener;
@@ -37,6 +38,19 @@ public class HomeActivity extends TabActivity {
 		setContentView(R.layout.activity_home);
 		findViewById();
 		initView();
+
+         //new
+		StrictMode.setThreadPolicy(new StrictMode.ThreadPolicy.Builder()
+				.detectDiskReads()
+				.detectDiskWrites()
+				.detectNetwork()
+				.penaltyLog()
+				.build());
+		StrictMode.setVmPolicy(new StrictMode
+				.VmPolicy.Builder()
+				.detectLeakedSqlLiteObjects()
+				.detectLeakedClosableObjects()
+				.penaltyLog().penaltyDeath().build());
 	}
 
 	private void findViewById() {

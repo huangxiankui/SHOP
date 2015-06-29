@@ -39,4 +39,4 @@
         android:drawable="@drawable/loading_12"
         android:duration="50"/>
 
-</animation-list><!-- From: file:/E:/buy/app/src/main/res/drawable/loading_animation.xml -->
+</animation-list><!-- From: file:/E:/android/buy/app/src/main/res/drawable/loading_animation.xml -->

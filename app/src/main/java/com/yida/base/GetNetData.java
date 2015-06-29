@@ -1,5 +1,7 @@
 package com.yida.base;
 
+import android.os.StrictMode;
+
 import java.io.IOException;
 
 import org.apache.http.HttpEntity;
@@ -12,13 +14,15 @@ import org.apache.http.util.EntityUtils;
 
 
 public class GetNetData {
+
+
 	
 	   //get形式
 	 	public static String getResultForHttpGet(String url) throws ClientProtocolException, IOException
 	     {      
 	         String result="";  
 	          
-	         HttpGet httpGet=new HttpGet(url);//编者按：与HttpPost区别所在，这里是将参数在地址中传递  
+	         HttpGet httpGet=new HttpGet(url);//与HttpPost区别所在，这里是将参数在地址中传递
 	         HttpResponse response=new DefaultHttpClient().execute(httpGet);  
 	         if(response.getStatusLine().getStatusCode()==200){  
 	                 HttpEntity entity=response.getEntity();  

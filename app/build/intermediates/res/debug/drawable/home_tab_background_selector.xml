@@ -7,4 +7,4 @@
     <item android:drawable="@drawable/main_navigation_background" android:state_checked="false"/>
     <item android:drawable="@drawable/main_navigation_background"/>
 
-</selector><!-- From: file:/E:/buy/app/src/main/res/drawable/home_tab_background_selector.xml -->
+</selector><!-- From: file:/E:/android/buy/app/src/main/res/drawable/home_tab_background_selector.xml -->

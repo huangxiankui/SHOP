@@ -32,7 +32,7 @@ public class LoadActivity extends Activity {
 				try
 				{
 					Thread.sleep(DELAY_TIME);
-				//	loadjson.getJson(adUrl);
+
 				} catch (InterruptedException e)
 				{
 					// TODO Auto-generated catch block

@@ -6,4 +6,4 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/gallery_image"/>
-</LinearLayout><!-- From: file:/E:/buy/app/src/main/res/drawable/item.xml -->
+</LinearLayout><!-- From: file:/E:/android/buy/app/src/main/res/drawable/item.xml -->

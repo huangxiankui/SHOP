@@ -5,4 +5,4 @@
     <item android:drawable="@drawable/button_down" android:state_focused="true"/>
     <item android:drawable="@drawable/button_on"/>
 
-</selector><!-- From: file:/E:/buy/app/src/main/res/drawable/button_style.xml -->
+</selector><!-- From: file:/E:/android/buy/app/src/main/res/drawable/button_style.xml -->

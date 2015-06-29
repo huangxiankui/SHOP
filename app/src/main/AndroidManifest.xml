@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.yida"
-    android:versionCode="1"
+
     android:versionName="2.0" >
 
     <uses-sdk
-        android:minSdkVersion="8"
-        android:targetSdkVersion="8" />
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" />
      <uses-permission android:name="android.permission.BAIDU_LOCATION_SERVICE" >
     </uses-permission>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
@@ -77,11 +77,6 @@
           <activity
             android:name="com.yida.ui.Gongjiao"
            ></activity>
-           
-           <activity
-            android:name="com.yida.ui.Sudinews"
-           ></activity>
-           
             <activity
             android:name="com.yida.ui.NewsFragmentactivity"
            ></activity>
@@ -98,10 +93,7 @@
             android:name="com.yida.ui.CategoryActivity"
             android:label="@string/title_activity_category" >
         </activity>
-        <activity
-            android:name="com.yida.ui.CartActivity"
-            android:label="@string/title_activity_cart" >
-        </activity>
+
         <activity
             android:name="com.yida.ui.PersonalActivity"
             android:label="@string/title_activity_personal" >

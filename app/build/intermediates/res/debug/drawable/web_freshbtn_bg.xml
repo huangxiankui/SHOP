@@ -4,4 +4,4 @@
     <item android:state_selected="false" android:state_pressed="false" android:drawable="@drawable/fresh" />
     <item android:state_pressed="true" android:drawable="@drawable/fresh_s" />
     <item android:state_selected="true" android:drawable="@drawable/fresh_s" />
-</selector><!-- From: file:/E:/buy/app/src/main/res/drawable/web_freshbtn_bg.xml -->
+</selector><!-- From: file:/E:/android/buy/app/src/main/res/drawable/web_freshbtn_bg.xml -->

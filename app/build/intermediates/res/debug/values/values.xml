@@ -1,24 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/E:/buy/app/src/main/res/values/attrs.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/attrs.xml -->
     <eat-comment/>
+    <attr format="float" name="a_in"/>
+    <attr format="float" name="a_out"/>
     <attr format="boolean" name="centered"/>
-    <!-- From: file:/E:/buy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/E:/android/buy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
     <attr format="boolean" name="isLightTheme"/>
-    <!-- From: file:/E:/buy/app/src/main/res/values/attrs.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/attrs.xml -->
     <eat-comment/>
     <attr format="color" name="selectedColor"/>
     <attr format="dimension" name="strokeWidth"/>
-    <!-- From: file:/E:/buy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/E:/android/buy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <attr format="string" name="title"/>
-    <!-- From: file:/E:/buy/app/src/main/res/values/attrs.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/attrs.xml -->
     <eat-comment/>
     <attr format="color" name="unselectedColor"/>
-    <!-- From: file:/E:/buy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <attr format="float" name="x_in"/>
+    <attr format="float" name="x_out"/>
+    <attr format="float" name="y_in"/>
+    <attr format="float" name="y_out"/>
+    <!-- From: file:/E:/android/buy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <bool name="abc_action_bar_embed_tabs">true</bool>
     <bool name="abc_action_bar_embed_tabs_pre_jb">false</bool>
@@ -27,14 +33,14 @@
     <bool name="abc_config_allowActionMenuItemTextWithIcon">false</bool>
     <bool name="abc_config_closeDialogWhenTouchOutside">true</bool>
     <bool name="abc_config_showMenuShortcutsWhenKeyboardPresent">false</bool>
-    <!-- From: file:/E:/buy/app/src/main/res/values/indicator__defaults.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/indicator__defaults.xml -->
     <eat-comment/>
     <bool name="default_circle_indicator_centered">true</bool>
     <bool name="default_circle_indicator_snap">false</bool>
     <bool name="default_line_indicator_centered">true</bool>
     <bool name="default_title_indicator_selected_bold">true</bool>
     <bool name="default_underline_indicator_fades">true</bool>
-    <!-- From: file:/E:/buy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/E:/android/buy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <color name="abc_input_method_navigation_guard">@android:color/black</color>
     <color name="abc_search_url_text_normal">#7fa87f</color>
@@ -42,25 +48,25 @@
     <color name="abc_search_url_text_selected">@android:color/black</color>
     <color name="accent_material_dark">@color/material_deep_teal_200</color>
     <color name="accent_material_light">@color/material_deep_teal_500</color>
-    <!-- From: file:/E:/buy/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="backColor">#2000</color>
-    <!-- From: file:/E:/buy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/E:/android/buy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <color name="background_floating_material_dark">#ff424242</color>
     <color name="background_floating_material_light">#ffeeeeee</color>
     <color name="background_material_dark">#ff303030</color>
     <color name="background_material_light">#ffeeeeee</color>
-    <!-- From: file:/E:/buy/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="black">#000000</color>
-    <!-- From: file:/E:/buy/app/src/main/res/values/color.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/color.xml -->
     <eat-comment/>
     <color name="black1">#000000</color>
-    <!-- From: file:/E:/buy/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="blue">#009</color>
-    <!-- From: file:/E:/buy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/E:/android/buy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
     <color name="bright_foreground_disabled_material_light">#80000000</color>
@@ -70,10 +76,10 @@
     <color name="bright_foreground_material_light">@android:color/black</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
-    <!-- From: file:/E:/buy/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="defaultTextColor">#666</color>
-    <!-- From: file:/E:/buy/app/src/main/res/values/indicator__defaults.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/indicator__defaults.xml -->
     <eat-comment/>
     <color name="default_circle_indicator_fill_color">#FFFFFFFF</color>
     <color name="default_circle_indicator_page_color">#00000000</color>
@@ -84,58 +90,58 @@
     <color name="default_title_indicator_selected_color">#FFFFFFFF</color>
     <color name="default_title_indicator_text_color">#BBFFFFFF</color>
     <color name="default_underline_indicator_selected_color">#FF33B5E5</color>
-    <!-- From: file:/E:/buy/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="detail_bgColor">#f5f5f5</color>
-    <!-- From: file:/E:/buy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/E:/android/buy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <color name="dim_foreground_disabled_material_dark">#80bebebe</color>
     <color name="dim_foreground_disabled_material_light">#80323232</color>
     <color name="dim_foreground_material_dark">#ffbebebe</color>
     <color name="dim_foreground_material_light">#ff323232</color>
-    <!-- From: file:/E:/buy/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="divide">#cccccc</color>
-    <!-- From: file:/E:/buy/app/src/main/res/values/color.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/color.xml -->
     <eat-comment/>
     <color name="divide1">#cccccc</color>
-    <!-- From: file:/E:/buy/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="edittext">#E0FFFF</color>
-    <!-- From: file:/E:/buy/app/src/main/res/values/color.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/color.xml -->
     <eat-comment/>
     <color name="edittext1">#E0FFFF</color>
-    <!-- From: file:/E:/buy/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="focused">#ffff44ff</color>
     <color name="gray">#FFFAFA</color>
-    <!-- From: file:/E:/buy/app/src/main/res/values/color.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/color.xml -->
     <eat-comment/>
     <color name="gray1">#FFFAFA</color>
-    <!-- From: file:/E:/buy/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="green">#090</color>
     <color name="head">#ffb10000</color>
-    <!-- From: file:/E:/buy/app/src/main/res/values/color.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/color.xml -->
     <eat-comment/>
     <color name="head1">#ffb10000</color>
-    <!-- From: file:/E:/buy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/E:/android/buy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
     <color name="hint_foreground_material_dark">@color/bright_foreground_disabled_material_dark</color>
     <color name="hint_foreground_material_light">@color/bright_foreground_disabled_material_light</color>
-    <!-- From: file:/E:/buy/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="hintbgcolor">#ffffffff</color>
     <color name="hintcolor">#b2b2b2</color>
-    <!-- From: file:/E:/buy/app/src/main/res/values/color.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/color.xml -->
     <eat-comment/>
     <color name="lightw1hite">#ddd</color>
-    <!-- From: file:/E:/buy/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="lightwhite">#ddd</color>
-    <!-- From: file:/E:/buy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/E:/android/buy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <color name="link_text_material_dark">@color/material_deep_teal_200</color>
     <color name="link_text_material_light">@color/material_deep_teal_500</color>
@@ -144,19 +150,19 @@
     <color name="material_blue_grey_950">#ff21272b</color>
     <color name="material_deep_teal_200">#ff80cbc4</color>
     <color name="material_deep_teal_500">#ff009688</color>
-    <!-- From: file:/E:/buy/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="pathbtnBg">#cc474747</color>
     <color name="pathbtnBg1">#00474747</color>
     <color name="pink">#fb5b7f</color>
-    <!-- From: file:/E:/buy/app/src/main/res/values/color.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/color.xml -->
     <eat-comment/>
     <color name="pink1">#fb5b7f</color>
-    <!-- From: file:/E:/buy/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="possible_result_points">#c0ffff00</color>
     <color name="pressed">#ffcccccc</color>
-    <!-- From: file:/E:/buy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/E:/android/buy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <color name="primary_dark_material_dark">#ff000000</color>
     <color name="primary_dark_material_light">#ff757575</color>
@@ -166,16 +172,16 @@
     <color name="primary_text_default_material_light">#de000000</color>
     <color name="primary_text_disabled_material_dark">#4Dffffff</color>
     <color name="primary_text_disabled_material_light">#39000000</color>
-    <!-- From: file:/E:/buy/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="red">#FF0000</color>
-    <!-- From: file:/E:/buy/app/src/main/res/values/color.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/color.xml -->
     <eat-comment/>
     <color name="red1">#FF0000</color>
-    <!-- From: file:/E:/buy/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="result_view">#b0000000</color>
-    <!-- From: file:/E:/buy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/E:/android/buy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <color name="ripple_material_dark">#4dffffff</color>
     <color name="ripple_material_light">#1f000000</color>
@@ -183,29 +189,29 @@
     <color name="secondary_text_default_material_light">#8a000000</color>
     <color name="secondary_text_disabled_material_dark">#36ffffff</color>
     <color name="secondary_text_disabled_material_light">#24000000</color>
-    <!-- From: file:/E:/buy/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="selected">#fff33fff</color>
-    <!-- From: file:/E:/buy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/E:/android/buy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <color name="switch_thumb_disabled_material_dark">#ff616161</color>
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
-    <!-- From: file:/E:/buy/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="trans">#55000000</color>
-    <!-- From: file:/E:/buy/app/src/main/res/values/color.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/color.xml -->
     <eat-comment/>
     <color name="trans1">#55000000</color>
-    <!-- From: file:/E:/buy/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="transparent">#0000</color>
     <color name="unfocused">#ccffffff</color>
     <color name="viewfinder_frame">#2477ab</color>
     <color name="viewfinder_mask">#60000000</color>
     <color name="white">#FFFFFF</color>
-    <!-- From: file:/E:/buy/app/src/main/res/values/color.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/color.xml -->
     <eat-comment/>
     <color name="white1">#FFFFFF</color>
     <declare-styleable name="ActionBar"><attr name="navigationMode"><enum name="normal" value="0"/><enum name="listMode" value="1"/><enum name="tabMode" value="2"/></attr><attr name="displayOptions"><flag name="none" value="0"/><flag name="useLogo" value="0x1"/><flag name="showHome" value="0x2"/><flag name="homeAsUp" value="0x4"/><flag name="showTitle" value="0x8"/><flag name="showCustom" value="0x10"/><flag name="disableHome" value="0x20"/></attr><attr name="title"/><attr format="string" name="subtitle"/><attr format="reference" name="titleTextStyle"/><attr format="reference" name="subtitleTextStyle"/><attr format="reference" name="icon"/><attr format="reference" name="logo"/><attr format="reference" name="divider"/><attr format="reference" name="background"/><attr format="reference|color" name="backgroundStacked"/><attr format="reference|color" name="backgroundSplit"/><attr format="reference" name="customNavigationLayout"/><attr name="height"/><attr format="reference" name="homeLayout"/><attr format="reference" name="progressBarStyle"/><attr format="reference" name="indeterminateProgressStyle"/><attr format="dimension" name="progressBarPadding"/><attr name="homeAsUpIndicator"/><attr format="dimension" name="itemPadding"/><attr format="boolean" name="hideOnContentScroll"/><attr format="dimension" name="contentInsetStart"/><attr format="dimension" name="contentInsetEnd"/><attr format="dimension" name="contentInsetLeft"/><attr format="dimension" name="contentInsetRight"/><attr format="dimension" name="elevation"/><attr format="reference" name="popupTheme"/></declare-styleable>
@@ -236,7 +242,7 @@
     <declare-styleable name="View"><attr format="dimension" name="paddingStart"/><attr format="dimension" name="paddingEnd"/><attr name="android:focusable"/><attr format="reference" name="theme"/><attr name="android:theme"/><attr format="color" name="backgroundTint"/><attr name="backgroundTintMode"><enum name="src_over" value="3"/><enum name="src_in" value="5"/><enum name="src_atop" value="9"/><enum name="multiply" value="14"/><enum name="screen" value="15"/></attr></declare-styleable>
     <declare-styleable name="ViewPagerIndicator"><attr format="reference" name="vpiCirclePageIndicatorStyle"/><attr format="reference" name="vpiIconPageIndicatorStyle"/><attr format="reference" name="vpiLinePageIndicatorStyle"/><attr format="reference" name="vpiTitlePageIndicatorStyle"/><attr format="reference" name="vpiTabPageIndicatorStyle"/><attr format="reference" name="vpiUnderlinePageIndicatorStyle"/></declare-styleable>
     <declare-styleable name="ViewStubCompat"><attr name="android:layout"/><attr name="android:inflatedId"/><attr name="android:id"/></declare-styleable>
-    <!-- From: file:/E:/buy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/E:/android/buy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="abc_action_bar_content_inset_material">16dp</dimen>
     <dimen name="abc_action_bar_default_height_material">56dp</dimen>
@@ -298,11 +304,11 @@
     <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
-    <!-- From: file:/E:/buy/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/E:/buy/app/src/main/res/values/indicator__defaults.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/indicator__defaults.xml -->
     <eat-comment/>
     <dimen name="default_circle_indicator_radius">3dp</dimen>
     <dimen name="default_circle_indicator_stroke_width">1dp</dimen>
@@ -317,7 +323,7 @@
     <dimen name="default_title_indicator_text_size">15dp</dimen>
     <dimen name="default_title_indicator_title_padding">5dp</dimen>
     <dimen name="default_title_indicator_top_padding">7dp</dimen>
-    <!-- From: file:/E:/buy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/E:/android/buy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <item name="dialog_fixed_height_major" type="dimen">80%</item>
     <item name="dialog_fixed_height_minor" type="dimen">100%</item>
@@ -342,14 +348,14 @@
     <integer name="abc_config_activityShortDur">150</integer>
     <integer name="abc_max_action_buttons">2</integer>
     <integer name="cancel_button_image_alpha">127</integer>
-    <!-- From: file:/E:/buy/app/src/main/res/values/indicator__defaults.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/indicator__defaults.xml -->
     <eat-comment/>
     <integer name="default_circle_indicator_orientation">0</integer>
     <integer name="default_title_indicator_footer_indicator_style">2</integer>
     <integer name="default_title_indicator_line_position">0</integer>
     <integer name="default_underline_indicator_fade_delay">300</integer>
     <integer name="default_underline_indicator_fade_length">400</integer>
-    <!-- From: file:/E:/buy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/E:/android/buy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <integer name="status_bar_notification_info_maxnum">999</integer>
     <string name="abc_action_bar_home_description">Navigate home</string>
@@ -369,16 +375,16 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <!-- From: file:/E:/buy/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="action_settings">Settings</string>
-    <!-- From: file:/E:/buy/app/src/main/res/values/ssdk_strings.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="app_downloading">应用正在后台下载</string>
-    <!-- From: file:/E:/buy/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="app_name">易购</string>
-    <!-- From: file:/E:/buy/app/src/main/res/values/ssdk_strings.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="douban">豆瓣</string>
     <string name="download_faield">下载失败</string>
@@ -391,51 +397,51 @@
     <string name="foursquare">FourSquare</string>
     <string name="google_plus_client_inavailable">Google+ 版本过低或者没有安装，需要升级或安装Google+才能使用！</string>
     <string name="googleplus">Google+</string>
-    <!-- From: file:/E:/buy/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="hello_world">Hello world!</string>
-    <!-- From: file:/E:/buy/app/src/main/res/values/ssdk_strings.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="incentive_title">分享有奖</string>
     <string name="instagram">Instagram</string>
     <string name="instagram_client_inavailable">Instagram版本过低或者没有安装，需要升级或安装Instagram才能使用！</string>
-    <!-- From: file:/E:/buy/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="junshi">军事要闻</string>
-    <!-- From: file:/E:/buy/app/src/main/res/values/ssdk_strings.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="kaixin">开心网</string>
-    <!-- From: file:/E:/buy/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="kepuyaowen">科技要闻</string>
-    <!-- From: file:/E:/buy/app/src/main/res/values/ssdk_strings.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="linkedin">Linked In</string>
     <string name="mingdao">明道</string>
     <string name="mingdao_share_content">网页分享</string>
-    <!-- From: file:/E:/buy/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="my_tb">我的易购</string>
-    <!-- From: file:/E:/buy/app/src/main/res/values/ssdk_strings.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="neteasemicroblog">网易微博</string>
     <string name="pinterest">Pinterest</string>
     <string name="pinterest_client_inavailable">Pinterest版本过低或者没有安装，需要升级或安装Pinterest才能使用！</string>
-    <!-- From: file:/E:/buy/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="pvrCompleted">新闻要闻</string>
     <string name="pvrFailure">社会与法</string>
     <string name="pvrUnfinished">国内要闻</string>
-    <!-- From: file:/E:/buy/app/src/main/res/values/ssdk_strings.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="qq">QQ</string>
     <string name="qq_client_inavailable">QQ 版本过低或者没有安装，需要升级或安装QQ才能使用！</string>
     <string name="qzone">QQ空间</string>
     <string name="renren">人人网</string>
-    <!-- From: file:/E:/buy/app/src/main/res/values/config.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/config.xml -->
     <eat-comment/>
     <string name="serverUrl">http://huangxiankui.3vzhuji.net/update.xml</string>
-    <!-- From: file:/E:/buy/app/src/main/res/values/ssdk_strings.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="share_failed">分享失败</string>
     <string name="share_to_mingdao">分享到明道</string>
@@ -444,20 +450,20 @@
     <string name="sinaweibo">新浪微博</string>
     <string name="sohumicroblog">搜狐微博</string>
     <string name="sohusuishenkan">搜狐随身看</string>
-    <!-- From: file:/E:/buy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/E:/android/buy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <!-- From: file:/E:/buy/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="tab_1">学习用品</string>
     <string name="tab_2">二货商城</string>
     <string name="tab_3">日常用品</string>
     <string name="tab_4">电子产品</string>
     <string name="tab_5">杂货小铺</string>
-    <!-- From: file:/E:/buy/app/src/main/res/values/ssdk_strings.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="tencentweibo">腾讯微博</string>
-    <!-- From: file:/E:/buy/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="title_activity_cart">CartActivity</string>
     <string name="title_activity_category">CategoryActivity</string>
@@ -473,14 +479,14 @@
     <string name="title_my">我的</string>
     <string name="title_stars">易搜</string>
     <string name="todo">TODO</string>
-    <!-- From: file:/E:/buy/app/src/main/res/values/ssdk_strings.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="tumblr">Tumblr</string>
     <string name="twitter">Twitter</string>
-    <!-- From: file:/E:/buy/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="user_work_back">返回</string>
-    <!-- From: file:/E:/buy/app/src/main/res/values/ssdk_strings.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="vkontakte">VK</string>
     <string name="website">http://www.shareSDK.cn</string>
@@ -494,16 +500,16 @@
     <string name="yixin_client_inavailable">目前您的易信版本过低或未安装易信，需要安装易信才能使用</string>
     <string name="yixinmoments">易信朋友圈</string>
     <string name="youdao">有道云笔记</string>
-    <!-- From: file:/E:/buy/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="youxi">游戏天空</string>
-    <!-- From: file:/E:/buy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/E:/android/buy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
     <style name="Animation.AppCompat.DropDownUp" parent="Base.Animation.AppCompat.DropDownUp"/>
-    <!-- From: file:/E:/buy/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--
@@ -515,7 +521,7 @@
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
-    <!-- From: file:/E:/buy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <!-- From: file:/E:/android/buy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
     <eat-comment/>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
         <item name="android:layout">@layout/abc_alert_dialog_material</item>
@@ -1757,7 +1763,7 @@
     <style name="Widget.AppCompat.TextView.SpinnerItem" parent="Base.Widget.AppCompat.TextView.SpinnerItem"/>
     <style name="Widget.AppCompat.Toolbar" parent="Base.Widget.AppCompat.Toolbar"/>
     <style name="Widget.AppCompat.Toolbar.Button.Navigation" parent="RtlOverlay.Widget.AppCompat.Toolbar.Button.Navigation"/>
-    <!-- From: file:/E:/buy/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="home_tab_bottom">
         <item name="android:gravity">center</item>

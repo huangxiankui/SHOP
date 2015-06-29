@@ -6,4 +6,4 @@
     <item android:state_selected="true" android:drawable="@drawable/stars_indicator_s" />
     <item android:state_checked="true" android:drawable="@drawable/stars_indicator_s" />
     <item android:drawable="@drawable/stars_indicator" />
-</selector><!-- From: file:/E:/buy/app/src/main/res/drawable/stars_indicator_bg.xml -->
+</selector><!-- From: file:/E:/android/buy/app/src/main/res/drawable/stars_indicator_bg.xml -->
