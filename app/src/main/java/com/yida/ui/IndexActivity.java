@@ -25,6 +25,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.content.Context;
 import android.content.Intent;
+import android.os.StrictMode;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
@@ -96,14 +97,32 @@ public class IndexActivity extends FragmentActivity {
 		sw = windowManager.getDefaultDisplay().getWidth();
 		//屏幕高度
 		sh = windowManager.getDefaultDisplay().getHeight();
-		initView();
+     //版本问题，在4.0之后在主线程里面执行Http请求都会报这个错，
+        // 也许是怕Http请求时间太长造成程序假死的情况吧
+        //在发起Http请求的Activity里面的onCreate函数里面添加如下代码：
+        // http://www.cnblogs.com/sjrhero/articles/2606833.html
+        StrictMode.setThreadPolicy(new StrictMode.ThreadPolicy.Builder()
+                .detectDiskReads()
+                .detectDiskWrites()
+                .detectNetwork()
+                .penaltyLog()
+                .build());
+        StrictMode.setVmPolicy(new StrictMode
+                .VmPolicy.Builder()
+                .detectLeakedSqlLiteObjects()
+                .detectLeakedClosableObjects()
+                .penaltyLog().penaltyDeath().build());
 
-		ll_focus_indicator_container = (LinearLayout) findViewById(R.id.ll_focus_indicator_container);
-		InitFocusIndicatorContainer();
-		gallery = (MyGallery) findViewById(R.id.banner_gallery);
-		gallery.setAdapter(myAdapter);
-		gallery.setFocusable(true);
-		
+        //
+        initView();
+
+        ll_focus_indicator_container = (LinearLayout) findViewById(R.id.ll_focus_indicator_container);
+        InitFocusIndicatorContainer();
+        gallery = (MyGallery) findViewById(R.id.banner_gallery);
+        gallery.setAdapter(myAdapter);
+        gallery.setFocusable(true);
+
+		//
 		gallery.setOnItemSelectedListener(new OnItemSelectedListener() {
 
 			public void onItemSelected(AdapterView<?> arg0, View arg1,
@@ -419,7 +438,7 @@ public class IndexActivity extends FragmentActivity {
 	}
 	
 
-
+/*viewpage数据解析*/
     public List<Map<String,String>> getCate(){
     	    	    	
     	String url = "http://www.ankobeauty.com/anko/index.php/Index/Index/aad";
@@ -431,8 +450,9 @@ public class IndexActivity extends FragmentActivity {
 			int length = cateList.length();
 			for(int i=0 ;i<length;i++){
 				Map<String, String> map = new HashMap<String, String>();
-				JSONObject oj = cateList.getJSONObject(i);                
-                map.put("img", "http://www.ankobeauty.com"+oj.getString("img"));  
+				JSONObject oj = cateList.getJSONObject(i);
+
+                map.put("img", "http://www.ankobeauty.com"+oj.getString("img"));
                 map.put("name", oj.getString("name"));
                 map.put("url", oj.getString("url"));
                 list.add(map);                            
