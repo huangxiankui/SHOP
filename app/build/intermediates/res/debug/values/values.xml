@@ -59,6 +59,7 @@
     <color name="background_material_light">#ffeeeeee</color>
     <!-- From: file:/E:/android/buy/app/src/main/res/values/colors.xml -->
     <eat-comment/>
+    <color name="base_shallow_black">#818181</color>
     <color name="black">#000000</color>
     <!-- From: file:/E:/android/buy/app/src/main/res/values/color.xml -->
     <eat-comment/>
@@ -206,7 +207,7 @@
     <color name="trans1">#55000000</color>
     <!-- From: file:/E:/android/buy/app/src/main/res/values/colors.xml -->
     <eat-comment/>
-    <color name="transparent">#0000</color>
+    <color name="transparent">#00000000</color>
     <color name="unfocused">#ccffffff</color>
     <color name="viewfinder_frame">#2477ab</color>
     <color name="viewfinder_mask">#60000000</color>
@@ -339,11 +340,33 @@
     <item name="action_bar_spinner" type="id"/>
     <item name="action_menu_divider" type="id"/>
     <item name="action_menu_presenter" type="id"/>
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/ids.xml -->
+    <eat-comment/>
+    <item name="brand_add_id" type="id"/>
+    <item name="gridview" type="id"/>
+    <!-- From: file:/E:/android/buy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <eat-comment/>
     <item name="home" type="id"/>
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/ids.xml -->
+    <eat-comment/>
+    <item name="parallax_pager" type="id"/>
+    <item name="parallax_view_tag" type="id"/>
+    <!-- From: file:/E:/android/buy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <eat-comment/>
     <item name="progress_circular" type="id"/>
     <item name="progress_horizontal" type="id"/>
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/ids.xml -->
+    <eat-comment/>
+    <item name="scrollview" type="id"/>
+    <!-- From: file:/E:/android/buy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <eat-comment/>
     <item name="split_action_bar" type="id"/>
     <item name="up" type="id"/>
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/ids.xml -->
+    <eat-comment/>
+    <item name="webview" type="id"/>
+    <!-- From: file:/E:/android/buy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/res/values/values.xml -->
+    <eat-comment/>
     <integer name="abc_config_activityDefaultDur">220</integer>
     <integer name="abc_config_activityShortDur">150</integer>
     <integer name="abc_max_action_buttons">2</integer>
@@ -425,6 +448,12 @@
     <!-- From: file:/E:/android/buy/app/src/main/res/values/ssdk_strings.xml -->
     <eat-comment/>
     <string name="neteasemicroblog">网易微博</string>
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="phone_login">手机登录</string>
+    <string name="phone_reg">注册帐号</string>
+    <!-- From: file:/E:/android/buy/app/src/main/res/values/ssdk_strings.xml -->
+    <eat-comment/>
     <string name="pinterest">Pinterest</string>
     <string name="pinterest_client_inavailable">Pinterest版本过低或者没有安装，需要升级或安装Pinterest才能使用！</string>
     <!-- From: file:/E:/android/buy/app/src/main/res/values/strings.xml -->

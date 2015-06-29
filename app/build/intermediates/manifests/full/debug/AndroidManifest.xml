@@ -59,6 +59,8 @@
             android:name="com.yida.ui.LoadActivity"
             android:label="@string/app_name"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity android:name="com.yida.ui.Start" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

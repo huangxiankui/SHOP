@@ -25,8 +25,11 @@
     <string name="tab_4">电子产品</string>
     <string name="tab_5">杂货小铺</string>
     <string name="title_activity_result">ResultActivity</string>
-    
-    
+
+    <string name="phone_login">手机登录</string>
+    <string name="phone_reg">注册帐号</string>
+
+
     <string name="pvrCompleted">新闻要闻</string>
     <string name="pvrUnfinished">国内要闻</string>
     <string name="pvrFailure">社会与法</string>
